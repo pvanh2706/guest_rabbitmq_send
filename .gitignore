@@ -1,0 +1,53 @@
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+*.suo
+*.user
+*.cache
+*.csproj.user
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore dependencies
+node_modules/
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore logs and database
+*.log
+logs/
+*.mdf
+*.ldf
+Migrations/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+
+# Ignore publish output
+publish/
+wwwroot/
+
+# Ignore user secrets (for security)
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+
+# Ignore Rider (JetBrains) & ReSharper files
+.idea/
+*.dotSettings.user
+*.ReSharper
+*.Rider/
+
+# Ignore test output
+TestResults/
+.coverage
+*.coveragexml
+*.trx
